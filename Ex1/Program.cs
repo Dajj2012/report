@@ -17,6 +17,5 @@ int n =  int.Parse(Console.ReadLine());
 string?[] array = new string[n];
 InputArray(array);
 Console.WriteLine($"[{string.Join(", ", array)}]");
-Console.WriteLine("Введите длину искамых строк ");
-int m =  int.Parse(Console.ReadLine());
+int m =  3;
 exitArray(array,m);
